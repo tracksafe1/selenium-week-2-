@@ -93,7 +93,7 @@ driver.findElement(By.xpath("//div[@class='container']/div[2]/ul/li[2]/ul/li[2]"
 //                3.4 Enter Last Name
                 driver.findElement(By.xpath("//fieldset[@id='account']/div[3]/div/input")).sendKeys("Patel");
 //                3.5 Enter Email
-                driver.findElement(By.xpath("//fieldset[@id='account']/div[4]/div/input")).sendKeys("patel22514066@gmail.com");
+                driver.findElement(By.xpath("//fieldset[@id='account']/div[4]/div/input")).sendKeys("patel285066@gmail.com");
 //                3.6 Enter Telephone
                 driver.findElement(By.xpath("//fieldset[@id='account']/div[5]/div/input")).sendKeys("123456789");
 //                3.7 Enter Password
@@ -129,8 +129,8 @@ driver.findElement(By.xpath("//div[@class='container']/div[2]/ul/li[2]/ul/li[2]"
             }
 
             @After
-            public void endtest(){
-//                closebrowser();
+            public void endTest(){
+               closebrowser();
             }
 
         }

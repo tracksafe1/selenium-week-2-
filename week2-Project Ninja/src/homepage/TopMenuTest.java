@@ -80,6 +80,6 @@ public class TopMenuTest extends BaseTest {
             @Test
             @After
             public void endTest() {
-                //  closebrowser();
+                   closebrowser();
             }
         }

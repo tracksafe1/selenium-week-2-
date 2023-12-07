@@ -120,7 +120,7 @@ public class LaptopsAndNotebooksTest extends BaseTest {
         //for lastname
         driver.findElement(By.xpath("//div[@id='content']/div[1]/div[2]/div[2]/div/div[1]/div[1]/fieldset/div[3]/input")).sendKeys("kapur");
         // for Email
-        driver.findElement(By.xpath("//div[@id='content']/div[1]/div[2]/div[2]/div/div[1]/div[1]/fieldset/div[4]/input")).sendKeys("shi@gmail.com");
+        driver.findElement(By.xpath("//div[@id='content']/div[1]/div[2]/div[2]/div/div[1]/div[1]/fieldset/div[4]/input")).sendKeys("sh1i@gmail.com");
         //for telephone
         driver.findElement(By.xpath("//div[@id='content']/div[1]/div[2]/div[2]/div/div[1]/div[1]/fieldset/div[5]/input")).sendKeys("123456789");
 //        for address
